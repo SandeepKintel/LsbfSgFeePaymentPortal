@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestonDevelop(failed)">
+    <parameter name="environment" value="develop"/>
+    <classes>
+      <class name="LsbfsgOnlinePaymentPortal.LsbfPortal.NavigateFeePaymentTest">
+        <methods>
+          <include name="quitLsbfSg"/>
+          <include name="LaunchLsbfSg"/>
+          <include name="NavigateFeePayment"/>
+        </methods>
+      </class> <!-- LsbfsgOnlinePaymentPortal.LsbfPortal.NavigateFeePaymentTest -->
+    </classes>
+  </test> <!-- TestonDevelop(failed) -->
+  <test thread-count="5" name="TestonStage(failed)">
+    <parameter name="environment" value="stage"/>
+    <classes>
+      <class name="LsbfsgOnlinePaymentPortal.LsbfPortal.NavigateFeePaymentTest">
+        <methods>
+          <include name="quitLsbfSg"/>
+          <include name="LaunchLsbfSg"/>
+          <include name="NavigateFeePayment"/>
+        </methods>
+      </class> <!-- LsbfsgOnlinePaymentPortal.LsbfPortal.NavigateFeePaymentTest -->
+    </classes>
+  </test> <!-- TestonStage(failed) -->
+  <test thread-count="5" name="TestonProduction(failed)">
+    <parameter name="environment" value="production"/>
+    <classes>
+      <class name="LsbfsgOnlinePaymentPortal.LsbfPortal.NavigateFeePaymentTest">
+        <methods>
+          <include name="quitLsbfSg"/>
+          <include name="LaunchLsbfSg"/>
+          <include name="NavigateFeePayment"/>
+        </methods>
+      </class> <!-- LsbfsgOnlinePaymentPortal.LsbfPortal.NavigateFeePaymentTest -->
+    </classes>
+  </test> <!-- TestonProduction(failed) -->
+</suite> <!-- Failed suite [Suite] -->
